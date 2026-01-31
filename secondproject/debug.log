@@ -1,0 +1,88 @@
+Internal Server Error: /customers/search
+Traceback (most recent call last):
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\PaidCourse\secondproject\home\views.py", line 93, in customerSearch
+    result = result.execute()
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\dsl\_sync\search.py", line 97, in execute
+    es.search(index=self._index, body=self.to_dict(), **self._params)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\utils.py", line 452, in wrapped
+    return api(*args, **kwargs)
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\__init__.py", line 5131, in search
+    return self.perform_request(  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "POST",
+        ^^^^^^^
+    ...<5 lines>...
+        path_parts=__path_parts,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\_base.py", line 271, in perform_request
+    response = self._perform_request(
+        method,
+    ...<4 lines>...
+        otel_span=otel_span,
+    )
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\_base.py", line 351, in _perform_request
+    raise HTTP_EXCEPTIONS.get(meta.status, ApiError)(
+        message=message, meta=meta, body=resp_body
+    )
+elasticsearch.BadRequestError: BadRequestError(400, 'search_phase_execution_exception', 'failed to create query: For input string: ""amt""')
+Internal Server Error: /customers/search
+Traceback (most recent call last):
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\PaidCourse\secondproject\home\views.py", line 92, in customerSearch
+    result = result.execute()
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\dsl\_sync\search.py", line 97, in execute
+    es.search(index=self._index, body=self.to_dict(), **self._params)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\utils.py", line 452, in wrapped
+    return api(*args, **kwargs)
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\__init__.py", line 5131, in search
+    return self.perform_request(  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "POST",
+        ^^^^^^^
+    ...<5 lines>...
+        path_parts=__path_parts,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\_base.py", line 271, in perform_request
+    response = self._perform_request(
+        method,
+    ...<4 lines>...
+        otel_span=otel_span,
+    )
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\elasticsearch\_sync\client\_base.py", line 351, in _perform_request
+    raise HTTP_EXCEPTIONS.get(meta.status, ApiError)(
+        message=message, meta=meta, body=resp_body
+    )
+elasticsearch.BadRequestError: BadRequestError(400, 'search_phase_execution_exception', 'No mapping found for [_age] in order to sort on')
+Internal Server Error: /customers/search
+Traceback (most recent call last):
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\PaidCourse\secondproject\home\views.py", line 104, in customerSearch
+    ).collapse(field = age)
+                       ^^^
+NameError: name 'age' is not defined
+Internal Server Error: /customers/search
+Traceback (most recent call last):
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kumar\Envs\test\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\PaidCourse\secondproject\home\views.py", line 116, in customerSearch
+    'term',name =search
+                 ^^^^^^
+NameError: name 'serach' is not defined. Did you mean: 'search'?

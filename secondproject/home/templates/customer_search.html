@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Customer Details</h2>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Age</th>
+    <th>Phone</th>
+    <th>City</th>
+    <th>Father Name</th>
+  </tr>
+  {% for customer in customers %}
+  <tr><td>{{forloop.counter}}</td>
+    <td>{{customer.name}}</td>
+    <td>{{customer.email}}</td>
+    <td>{{customer.age}}</td>
+    <td>{{customer.phone}}</td>
+    <td>{{customer.city}}</td>
+    <td>{{customer.father_name}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>
+
