@@ -1,0 +1,403 @@
+[
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Whispers of the Hollow",
+        "author": "Clara E. Rowland",
+        "published_year": "1998"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Crimson Passage",
+        "author": "Marcus L. Fairbanks",
+        "published_year": "2010"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Moonlight Over Ember Bay",
+        "author": "Lila Montgomery",
+        "published_year": "2022"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Shadows and Starlight",
+        "author": "Nathan C. Dreyer",
+        "published_year": "2007"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "A Study in Ice",
+        "author": "Veronica Tate",
+        "published_year": "2015"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Echoes of Tomorrow",
+        "author": "Daniel C. Rusk",
+        "published_year": "1995"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Last Clockmaker",
+        "author": "Simon G. Hunt",
+        "published_year": "2018"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Beneath the Olive Tree",
+        "author": "Elise Harmon",
+        "published_year": "2003"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Rust and Rain",
+        "author": "James T. Harlow",
+        "published_year": "2011"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Gilded Wound",
+        "author": "Rachel Mireille",
+        "published_year": "2020"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Broken Wings of Winter",
+        "author": "Felix Monroe",
+        "published_year": "2001"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "A Garden for Ghosts",
+        "author": "Tabitha Moore",
+        "published_year": "2005"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Lantern Keeper",
+        "author": "Julian Royce",
+        "published_year": "2017"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Dust of the Ancients",
+        "author": "Serena Locke",
+        "published_year": "2008"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Ocean's Secret",
+        "author": "Paulina North",
+        "published_year": "2000"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Crimson Thorns",
+        "author": "Evan R. Holloway",
+        "published_year": "2012"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "When Stars Collide",
+        "author": "Beatrice Lin",
+        "published_year": "2019"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Painted Mirage",
+        "author": "Calvin J. Wilder",
+        "published_year": "1996"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Frost on the Mirror",
+        "author": "Nadine Carter",
+        "published_year": "2006"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Harvest of Time",
+        "author": "Jonathan Dale",
+        "published_year": "1999"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Stone Singer",
+        "author": "Amelia Corday",
+        "published_year": "2004"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Whispers in the Fog",
+        "author": "Henry Lakefield",
+        "published_year": "2013"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Twilight Accord",
+        "author": "Sylvia G. Winters",
+        "published_year": "2002"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Velvet Horizon",
+        "author": "Darren O'Neill",
+        "published_year": "2016"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Clocktower's Edge",
+        "author": "Leah Fontaine",
+        "published_year": "2009"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Nocturne for the Lost",
+        "author": "Oliver Langley",
+        "published_year": "2021"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Paper Feathers",
+        "author": "Megan L. Quinn",
+        "published_year": "1997"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Pearl of Thorns",
+        "author": "Thaddeus Vale",
+        "published_year": "2014"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Under the Iron Sky",
+        "author": "Fiona M. Dorsey",
+        "published_year": "2001"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Brass Petals",
+        "author": "Camden Roarke",
+        "published_year": "2006"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Ashes and Lanterns",
+        "author": "Isabelle Frost",
+        "published_year": "2023"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Garden of the Drowned",
+        "author": "Lionel Priest",
+        "published_year": "1994"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Clockwork Rivers",
+        "author": "Victoria Chen",
+        "published_year": "2010"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Song of the Hollow Wind",
+        "author": "Elias J. Morgan",
+        "published_year": "2007"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Vow of Embers",
+        "author": "Mira Castellan",
+        "published_year": "1993"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Midnight Atrium",
+        "author": "Dorian Blake",
+        "published_year": "2024"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Through Glass Rain",
+        "author": "Natalie Rhys",
+        "published_year": "2005"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Chimes in the Rift",
+        "author": "Ezra C. Vaughan",
+        "published_year": "2018"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "A Tapestry of Mist",
+        "author": "Helena R. Sorin",
+        "published_year": "2011"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Alabaster Trail",
+        "author": "Quentin Myles",
+        "published_year": "1992"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Of Mirrors and Sand",
+        "author": "Evelyn Roarke",
+        "published_year": "2015"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Scent of Obsidian",
+        "author": "Jasper Thorne",
+        "published_year": "2000"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Beneath Sapphire Skies",
+        "author": "Ivy M. Clarendon",
+        "published_year": "2022"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Watchmaker’s Lament",
+        "author": "Rowan Alden",
+        "published_year": "2008"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Dancing with Cinders",
+        "author": "Grace Lynn Hart",
+        "published_year": "2017"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Forgotten Melody",
+        "author": "Sebastian Lorne",
+        "published_year": "2003"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Ivory and Smoke",
+        "author": "Juliette Wilder",
+        "published_year": "1991"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "A Map of Falling Stars",
+        "author": "Cole Whitman",
+        "published_year": "2016"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "Through the Ashen Gate",
+        "author": "Madeline North",
+        "published_year": "2009"
+      }
+    },
+    {
+      "model": "core.book",
+      "fields": {
+        "title": "The Feather and the Flame",
+        "author": "Xavier R. Blaine",
+        "published_year": "1998"
+      }
+    }
+  ]
+  
