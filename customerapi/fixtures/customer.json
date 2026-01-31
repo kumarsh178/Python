@@ -1,0 +1,182 @@
+[
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Amit Sharma",
+      "email": "amit.sharma123@yopmail.com",
+      "phone": "9876543210",
+      "city": "Delhi"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Priya Verma",
+      "email": "priya.verma456@yopmail.com",
+      "phone": "9123456789",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar789@yopmail.com",
+      "phone": "9988776655",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Sneha Patil",
+      "email": "sneha.patil321@yopmail.com",
+      "phone": "9765432101",
+      "city": "Pune"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh987@yopmail.com",
+      "phone": "9345678923",
+      "city": "Jaipur"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Neha Gupta",
+      "email": "neha.gupta654@yopmail.com",
+      "phone": "9456781234",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Suresh Reddy",
+      "email": "suresh.reddy123@yopmail.com",
+      "phone": "9876123456",
+      "city": "Hyderabad"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Anjali Nair",
+      "email": "anjali.nair456@yopmail.com",
+      "phone": "9321456789",
+      "city": "Kochi"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Manish Joshi",
+      "email": "manish.joshi789@yopmail.com",
+      "phone": "9988123456",
+      "city": "Ahmedabad"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Kavita Das",
+      "email": "kavita.das321@yopmail.com",
+      "phone": "9765342109",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Arun Mehta",
+      "email": "arun.mehta987@yopmail.com",
+      "phone": "9345678912",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Meera Iyer",
+      "email": "meera.iyer654@yopmail.com",
+      "phone": "9456789123",
+      "city": "Chennai"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Rajesh Pandey",
+      "email": "rajesh.pandey123@yopmail.com",
+      "phone": "9876123890",
+      "city": "Bhopal"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Swati Choudhary",
+      "email": "swati.choudhary456@yopmail.com",
+      "phone": "9321476589",
+      "city": "Indore"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Gaurav Saxena",
+      "email": "gaurav.saxena789@yopmail.com",
+      "phone": "9988123467",
+      "city": "Nagpur"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Ritika Malhotra",
+      "email": "ritika.malhotra321@yopmail.com",
+      "phone": "9765342108",
+      "city": "Kanpur"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Deepak Sinha",
+      "email": "deepak.sinha987@yopmail.com",
+      "phone": "9345678911",
+      "city": "Patna"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Pooja Aggarwal",
+      "email": "pooja.aggarwal654@yopmail.com",
+      "phone": "9456789122",
+      "city": "Surat"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Nitin Bansal",
+      "email": "nitin.bansal123@yopmail.com",
+      "phone": "9876123889",
+      "city": "Ludhiana"
+    }
+  },
+  {
+    "model": "customerapi.customer",
+    "fields": {
+      "name": "Shruti Kulkarni",
+      "email": "shruti.kulkarni456@yopmail.com",
+      "phone": "9321476588",
+      "city": "Thane"
+    }
+  }
+]
