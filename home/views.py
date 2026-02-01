@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import random
-from home.rabbitmq import publish_message
+from home.rabbitmq import publish_message, publish_message_bylocal_rabbitmq
 from faker import Faker
 
 fake = Faker()
@@ -16,5 +16,6 @@ def index(request):
             "Address": fake.address()
         })
     message = f"This is the demo message - {random.randint(0, 100)}"
-    publish_message(users)
+    #publish_message(users)
+    publish_message_bylocal_rabbitmq(users)
     return render(request, 'index.html')
