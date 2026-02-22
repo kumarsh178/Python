@@ -1,0 +1,102 @@
+[
+  {
+    "model": "customer.customer",
+    "pk": 1,
+    "fields": {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "1234567890",
+      "city": "New York"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 2,
+    "fields": {
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "2345678901",
+      "city": "Los Angeles"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 3,
+    "fields": {
+      "name": "Carol Williams",
+      "email": "carol.williams@example.com",
+      "phone": "3456789012",
+      "city": "Chicago"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 4,
+    "fields": {
+      "name": "David Brown",
+      "email": "david.brown@example.com",
+      "phone": "4567890123",
+      "city": "Houston"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 5,
+    "fields": {
+      "name": "Eve Davis",
+      "email": "eve.davis@example.com",
+      "phone": "5678901234",
+      "city": "Phoenix"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 6,
+    "fields": {
+      "name": "Frank Miller",
+      "email": "frank.miller@example.com",
+      "phone": "6789012345",
+      "city": "Philadelphia"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 7,
+    "fields": {
+      "name": "Grace Wilson",
+      "email": "grace.wilson@example.com",
+      "phone": "7890123456",
+      "city": "San Antonio"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 8,
+    "fields": {
+      "name": "Henry Moore",
+      "email": "henry.moore@example.com",
+      "phone": "8901234567",
+      "city": "San Diego"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 9,
+    "fields": {
+      "name": "Isabella Taylor",
+      "email": "isabella.taylor@example.com",
+      "phone": "9012345678",
+      "city": "Dallas"
+    }
+  },
+  {
+    "model": "customer.customer",
+    "pk": 10,
+    "fields": {
+      "name": "Jack Anderson",
+      "email": "jack.anderson@example.com",
+      "phone": "0123456789",
+      "city": "San Jose"
+    }
+  }
+]
