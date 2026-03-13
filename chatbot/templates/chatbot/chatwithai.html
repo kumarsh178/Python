@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Hospital Chatbot</title>
+
+<style>
+
+#chatbox{
+height:300px;
+overflow:auto;
+border:1px solid #ccc;
+padding:10px;
+}
+
+.message{
+margin:10px 0;
+}
+
+.user{
+color:blue;
+}
+
+.bot{
+color:green;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Hospital AI Chatbot</h2>
+
+<div id="chatbox"></div>
+
+<input type="text" id="msg" placeholder="Ask something">
+<button onclick="send()">Send</button>
+
+<script>
+
+function send(){
+
+let message = document.getElementById("msg").value;
+
+document.getElementById("chatbox").innerHTML +=
+"<div class='message user'>You: "+message+"</div>";
+
+fetch("/chat/chatwithai/", {
+method: "POST",
+headers: {
+"Content-Type": "application/json",
+},
+body: JSON.stringify({
+message: message
+})
+})
+.then(res=>res.json())
+.then(data=>{
+
+document.getElementById("chatbox").innerHTML +=
+"<div class='message bot'>Bot: "+data.reply+"</div>";
+
+document.getElementById("msg").value="";
+
+})
+
+}
+
+</script>
+
+</body>
+</html>
