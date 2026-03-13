@@ -1,7 +1,7 @@
 from groq import Groq
 from .rag import search
 
-client = Groq(api_key="apikey")
+client = Groq(api_key="")
 
 
 def hospital_chat(question):
