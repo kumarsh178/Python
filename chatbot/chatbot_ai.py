@@ -1,8 +1,10 @@
 from groq import Groq
 from .rag import search
+import os
 
+groq_api_key = os.getenv("GROQ_API_KEY")
 #client code should be here
-
+client = Groq(api_key=groq_api_key)
 
 def hospital_chat(question):
 
