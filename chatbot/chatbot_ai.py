@@ -2,7 +2,7 @@ from groq import Groq
 from .rag import search
 
 #client code should be here
-#client = Groq(="")
+
 
 
 def hospital_chat(question):
