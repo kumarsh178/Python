@@ -4,7 +4,6 @@ from .rag import search
 #client code should be here
 
 
-
 def hospital_chat(question):
 
     context = search(question)
